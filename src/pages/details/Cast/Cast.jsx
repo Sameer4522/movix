@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import "./styles.scss";
-import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../../components/ContentWrapper/ContentWrapper";
 import Img from "../../../components/LazyLoadImg/Img";
 import avatar from "../../../assets/avatar.png";
 import { Scrollbar } from "react-scrollbars-custom";
