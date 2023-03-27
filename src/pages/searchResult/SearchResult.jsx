@@ -5,8 +5,8 @@ import "./styles.scss";
 import InfiniteScroll from "react-infinite-scroll-component";
 import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";
 import noResults from "../../assets/no-results.png";
-import Spinner from "../../components/spinner/Spinner";
-import MovieCard from "../../components/movieCard/MovieCard";
+import Spinner from "../../components/Spinner/Spinner";
+import MovieCard from "../../components/MovieCard/MovieCard";
 
 const SearchResult = () => {
   const [data, setData] = useState(null);
