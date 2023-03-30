@@ -5,8 +5,7 @@ const TMDB_TOKEN = import.meta.env.VITE_APP_TMDB_TOKEN;
 
 const headers = {
   Authorization: "bearer " + TMDB_TOKEN,
-  "Access-Control-Allow-Origin": "*",
-  "Content-Type": "application/json",
+  "Content-type": "application/json",
 };
 
 export const fetchDataFromApi = async (url, params) => {
